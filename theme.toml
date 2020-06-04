@@ -1,0 +1,12 @@
+name = "Beera"
+license = "MIT"
+licenselink = "https://github.com/lazyIoad/beera/blob/master/LICENSE"
+description = "Something simple."
+homepage = "https://github.com/lazyIoad/beera"
+tags = ["blog", "portfolio", "minimal"]
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Areeb Khan"
+  homepage = "https://github.com/lazyIoad/beera"

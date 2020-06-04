@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  <meta name="og:title" content="{{ .Title }}">
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="{{ .Permalink }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="none">
+  {{ with .Site.Params.themeColor }}<meta name="theme-color" content="{{ . }}">{{ end }}
+
+  {{- partial "styles.html" . -}}
+</head>
